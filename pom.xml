@@ -42,6 +42,8 @@
         <module>blade-service</module>
         <module>blade-service-api</module>
         <module>blade-common</module>
+        <module>blade-service/sjiay-demo</module>
+        <module>blade-service-api/sjiay-demo-api</module>
     </modules>
 
     <dependencyManagement>
