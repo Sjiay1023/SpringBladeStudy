@@ -2,6 +2,8 @@ package org.sjiay.demo.controller;
 
 import lombok.Data;
 
+import java.util.Date;
+
 /**
  * @program: SpringBlade
  * @description
@@ -14,6 +16,7 @@ public class User {
 	private String name;
 	private Integer age;
 	private String school;
+	private Date accessTime;
 
 	public User(Long id, String name, Integer age, String school) {
 		this.id = id;
@@ -22,5 +25,7 @@ public class User {
 		this.school = school;
 	}
 
-
+	public User(Date accessTime) {
+		this.accessTime = accessTime;
+	}
 }
